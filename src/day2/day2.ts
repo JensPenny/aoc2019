@@ -25,7 +25,8 @@ function day2A(data: string) {
     let codes = reader.asStringList(data, ',').map(s => Number(s));
     codes[1] = 12
     codes[2] = 2
-    console.log(codes[0])
+    let result = runProgram(codes)
+    console.log(result[0])
 }
 
 function day2B(data: string) {
