@@ -13,8 +13,8 @@ export class FileReader {
         });
     }
 
-    asStringList(data: string): Array < String > {
-        return data.split('\n')
+    asStringList(data: string, separator: string): Array < String > {
+        return data.split(separator)
     }
 
 }

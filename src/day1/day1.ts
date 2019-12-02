@@ -16,7 +16,7 @@ reader.read("./assets/day1")
     .catch(err => console.error(err))
 
 function day1A(data: string) {
-    let list = reader.asStringList(data)
+    let list = reader.asStringList(data, '\n')
     console.log(list)
 
     let totalFuel = list
@@ -27,7 +27,7 @@ function day1A(data: string) {
 }
 
 function day1B(data: string) {
-    let list = reader.asStringList(data)
+    let list = reader.asStringList(data, '\n')
     console.log(list)
 
     let totalFuel = list
