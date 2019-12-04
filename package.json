@@ -1,0 +1,22 @@
+{
+  "name": "aoc_penny",
+  "version": "1.0.0",
+  "description": "Advent of Code - personal project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JensPenny/aoc2019.git"
+  },
+  "author": "Jens Penny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JensPenny/aoc2019/issues"
+  },
+  "homepage": "https://github.com/JensPenny/aoc2019#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
