@@ -13,7 +13,7 @@ export class FileReader {
         });
     }
 
-    asStringList(data: string, separator: string): Array < String > {
+    asStringList(data: string, separator: string): Array < string > {
         return data.split(separator)
     }
 
