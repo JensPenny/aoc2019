@@ -1,6 +1,6 @@
 import {
     FileReader
-} from "../tools/filereader";
+} from "./tools/filereader";
 
 class Point {
     x: number

@@ -1,6 +1,6 @@
 import {
     FileReader
-} from "../tools/filereader";
+} from "./tools/filereader";
 import {
     read
 } from "fs";
