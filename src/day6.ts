@@ -16,14 +16,14 @@ class Orbit {
 let reader = new FileReader
 let testInput = 'COM)B\nB)C\nC)D\nD)E\nE)F\nB)G\nG)H\nD)I\nE)J\nJ)K\nK)L'
 let testInput2 = 'COM)B\nB)C\nC)D\nD)E\nE)F\nB)G\nG)H\nD)I\nE)J\nJ)K\nK)L\nK)YOU\nI)SAN'
-//day6A(testInput)
+day6A(testInput)
 day6B(testInput2)
 
-/*
+
 reader.read("./assets/day6")
     .then(data => day6A(data))
     .catch(err => console.error(err))
-    */
+
 reader.read("./assets/day6")
    .then(data => day6B(data))
    .catch(err => console.error(err))
